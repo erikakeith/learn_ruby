@@ -3,5 +3,6 @@ def ftoc(temp)
 end
 
 def ctof(temp)
+    temp = (temp * 1.8) + 32
 end
 
